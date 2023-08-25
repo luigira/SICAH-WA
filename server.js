@@ -28,7 +28,7 @@ function generateQRCode(qrCodeContent) {
 client.on('ready', () => {
   console.log('Client is ready!'); // Imprime un mensaje en la consola cuando el cliente de 'whatsapp-web.js' está listo
   listenMessage(); // Llama a la función para iniciar la escucha del chatbot
- const number = "5644673893@c.us"; // Número de teléfono de destino para enviar un mensaje de prueba
+ const number = "----@c.us"; // Número de teléfono de destino para enviar un mensaje de prueba
   const text = "Hey desde NodeJS"; // Texto del mensaje de prueba
 
    client.isRegisteredUser(number).then(function (isRegistered) { // Verifica si el número de teléfono está registrado en WhatsApp
